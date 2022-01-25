@@ -9,19 +9,75 @@
 <body>
   <!-- basic buttons -->
   <h2>Buttons</h2>
+  <button class="btn btn-primary">primary</button>
+  <button class="btn btn-secondary">secondary</button>
 
+  <button type="button" class="btn btn-link">Link</button>
   <!-- anchor tags as buttons -->
+    <a href="#" class="btn btn-primary">link primary button</a>
+
+  <!--Input as a button -->
+    <input class="btn btn-primary" type="button" value="Input">
 
   <!-- button sizes -->
   <h2>Button sizes</h2>
-
+  <button class="btn btn-primary btn-lg">primary large</button>
+  <button class="btn btn-primary btn-sm">primary small</button>
 
   <!-- outlined styles -->
   <h2>Button Styles</h2>
-
+  <button class="btn  btn-outline-primary">outline primary</button>
+  <button type="button" class="btn btn-outline-dark">Dark</button>
 
   <!-- button groups -->
   <h2>Button Groups</h2>
+  <div class="btn-group">
+    <button class="btn btn-primary">Laft</button>
+    <button class="btn btn-primary">Center</button>
+    <button class="btn btn-primary">Right</button>
+  </div>
+  <div class="btn-group">
+    <button class="btn btn-outline-primary">Laft</button>
+    <button class="btn btn-outline-primary">Center</button>
+    <button class="btn btn-outline-primary">Right</button>
+  </div>
+<!--check Boxs-->
+</br>
+  <div style="margin-top: 40px;" class="btn-group" role="group">
+    <input type="checkbox" class="btn-check" id="btnCheck1"/>
+    <label for="btnCheck1" class="btn btn-outline-primary">Left Input</label>
+
+    <input type="checkbox" class="btn-check" id="btnCheck2"/>
+    <label for="btnCheck2" class="btn btn-outline-primary">Center Input</label>
+
+    <input type="checkbox" class="btn-check" id="btnCheck3"/>
+    <label for="btnCheck3" class="btn btn-outline-primary">Left Input</label>
+  </div>
+  <!--Radio Buttons-->
+</br>
+  <div class="btn-group" role="group" >
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" >
+    <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+  
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" >
+    <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+  
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" >
+    <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+  </div>
+</br>
+<div class="btn-group">
+  <button class="btn btn-primary">1</button>
+  <button class="btn btn-primary">2</button>
+
+  <div class="btn-group">
+    <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" >Dropdown</button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+      <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+    </ul>
+  </div>
+</div>
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
